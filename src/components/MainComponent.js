@@ -4,12 +4,15 @@ import Artists from './ArtistsComponent';
 import Header from './HeaderComponent';
 import Footer from './FooterComponent';
 import Home from './HomeComponent';
+import Faq from './FaqComponent';
+import Contact from './ContactComponent';
 import HighlightInfo from './HighlightInfoComponent';
 import { Switch, Route, Redirect } from 'react-router-dom';
 import { ARTISTS } from '../shared/artists';
 import { RESOURCES } from '../shared/resources';
 import { PROMOTIONS } from '../shared/promotions';
 import { BILLBOARDS } from '../shared/billboards';
+import { FAQ } from '../shared/faq';
 
 import ScrollToTop from './ScrollToTop';
 
@@ -20,7 +23,8 @@ class Main extends Component {
       artists: ARTISTS,
       resources: RESOURCES,
       promotions: PROMOTIONS,
-      billboards: BILLBOARDS
+      billboards: BILLBOARDS,
+      faq: FAQ
     };
   }
 
@@ -66,6 +70,9 @@ class Main extends Component {
           <Route path='/restaurants/:restaurantId' component={RestaurantWithId} />
           <Route exact path='/events' render={() => <Guide category={"events"} highlights={this.state.events} resources={this.state.sponsors} />} />
           <Route path='/events/:eventId' component={EventWithId} />
+          <Route exact path='/FAQ' render={() => <Faq faqitems={this.state.faq}  />} />
+          <Route exact path='/contact' render={() => <Contact faqitems={this.state.faq}  />} />
+
           <Redirect to='/' /> 
         </Switch>
         <Footer />
