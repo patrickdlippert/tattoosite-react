@@ -4,6 +4,7 @@ import Artists from './ArtistsComponent';
 import Header from './HeaderComponent';
 import Footer from './FooterComponent';
 import Home from './HomeComponent';
+import Shop from './ShopComponent';
 import Faq from './FaqComponent';
 import Contact from './ContactComponent';
 import HighlightInfo from './HighlightInfoComponent';
@@ -12,6 +13,7 @@ import { ARTISTS } from '../shared/artists';
 import { RESOURCES } from '../shared/resources';
 import { PROMOTIONS } from '../shared/promotions';
 import { BILLBOARDS } from '../shared/billboards';
+import { SHOPPING } from '../shared/shopping';
 import { FAQ } from '../shared/faq';
 
 import ScrollToTop from './ScrollToTop';
@@ -24,6 +26,7 @@ class Main extends Component {
       resources: RESOURCES,
       promotions: PROMOTIONS,
       billboards: BILLBOARDS,
+      shopping: SHOPPING,
       faq: FAQ
     };
   }
@@ -70,8 +73,9 @@ class Main extends Component {
           <Route path='/restaurants/:restaurantId' component={RestaurantWithId} />
           <Route exact path='/events' render={() => <Guide category={"events"} highlights={this.state.events} resources={this.state.sponsors} />} />
           <Route path='/events/:eventId' component={EventWithId} />
+          <Route exact path='/shop' render={() => <Shop shopitems={this.state.shopping}  />} />
           <Route exact path='/FAQ' render={() => <Faq faqitems={this.state.faq}  />} />
-          <Route exact path='/contact' render={() => <Contact faqitems={this.state.faq}  />} />
+          <Route exact path='/contact' render={() => <Contact />} />
 
           <Redirect to='/' /> 
         </Switch>

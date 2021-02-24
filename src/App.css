@@ -236,7 +236,7 @@ a, a:hover {
   margin: 0 0 7px;
   list-style: none; }
 
-.product-grid9 .rating li {
+.product-grid9 .rating {
   font-size: 12px;
   color: #ffd200;
   transition: all .3s ease 0s; }
