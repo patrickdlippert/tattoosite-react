@@ -22,6 +22,7 @@
     "react-slick": "^0.28.0",
     "react-transition-group": "4.4.1",
     "reactstrap": "8.5.1",
+    "simple-react-lightbox": "^3.6.3",
     "slick-carousel": "^1.8.1",
     "typeface-montserrat": "^1.1.13",
     "typeface-yellowtail": "^1.1.13",

@@ -4,12 +4,15 @@ import Artists from './ArtistsComponent';
 import Header from './HeaderComponent';
 import Footer from './FooterComponent';
 import Home from './HomeComponent';
+import Galleries from './GalleriesComponent';
 import Shop from './ShopComponent';
 import Faq from './FaqComponent';
 import Contact from './ContactComponent';
 import HighlightInfo from './HighlightInfoComponent';
 import { Switch, Route, Redirect } from 'react-router-dom';
 import { ARTISTS } from '../shared/artists';
+import { GALLERIES } from '../shared/galleries';
+import { GALLERYIMAGES } from '../shared/galleryimages';
 import { RESOURCES } from '../shared/resources';
 import { PROMOTIONS } from '../shared/promotions';
 import { BILLBOARDS } from '../shared/billboards';
@@ -23,6 +26,8 @@ class Main extends Component {
     super(props);
     this.state = {
       artists: ARTISTS,
+      galleries: GALLERIES,
+      galleryimages: GALLERYIMAGES,
       resources: RESOURCES,
       promotions: PROMOTIONS,
       billboards: BILLBOARDS,
@@ -68,6 +73,7 @@ class Main extends Component {
         <Switch>
           <Route exact path='/' component={HomePage} />
           <Route exact path='/artists' render={() => <Artists category={"artists"} artists={this.state.artists}  />} />
+          <Route exact path='/gallery' render={() => <Galleries category={"galleries"} galleries={this.state.galleries} galleryimages={this.state.galleryimages} />} />
           <Route path='/attractions/:attractionId' component={AttractionWithId} />
           <Route exact path='/restaurants' render={() => <Guide category={"restaurants"} highlights={this.state.restaurants} resources={this.state.sponsors} />} />
           <Route path='/restaurants/:restaurantId' component={RestaurantWithId} />
