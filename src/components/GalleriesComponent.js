@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { Nav, NavItem, NavLink, TabContent, TabPane } from 'reactstrap';
-import { Fade } from 'react-animation-components';
 import SimpleReactLightbox, { SRLWrapper } from 'simple-react-lightbox';
 
 function RenderGalleryThumbnail({category, galleryimage}) {
@@ -43,20 +42,18 @@ function RenderGalleryTab({galleries, galleryimages}) {
     const galleryTabs = galleries.map(gallery => {
         return (
             <TabPane key={gallery.id} tabId={`${gallery.id}`}>
-                <Fade in>
                 <div className="container">
                     <div className="intro">
                         <h2 className="text-center">{gallery.name}</h2>
                         <p className="text-center font-weight-normal">{gallery.description}</p>
                     </div>
                     <SimpleReactLightbox>
-                    <SRLWrapper options={options}>
-                        <RenderGalleryPanel galleryimages={galleryimages.filter(gimages => gimages.typecode === gallery.id)} />
-                    </SRLWrapper>
+                        <SRLWrapper options={options}>
+                            <RenderGalleryPanel galleryimages={galleryimages.filter(gimages => gimages.typecode === gallery.id)} />
+                        </SRLWrapper>
                     </SimpleReactLightbox>
                 </div>
-            </Fade>
-        </TabPane>
+            </TabPane>
         );
     });
 
