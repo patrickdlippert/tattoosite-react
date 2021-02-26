@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Card, CardImg, CardImgOverlay, CardTitle } from 'reactstrap';
+import { Card, CardImg, CardTitle, CardBody, CardText } from 'reactstrap';
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -15,10 +15,14 @@ function ConstructCard({resource}) {
             <Card className="card_thumbnail p-1">
                 <a target="_blank:" href={resource.url}>
                 <CardImg src={resource.image} alt={resource.name} title={resource.description}/>
-                <CardImgOverlay>
-                  <CardTitle>{`${resource.displayName ? resource.name : ''}`}</CardTitle>
-                </CardImgOverlay>
                 </a>
+
+                <CardBody className="text-center text-light">
+     
+              <CardTitle tag="h5">{resource.name}</CardTitle>
+              <CardText>{resource.description}
+            </CardText>
+            </CardBody>
             </Card>
         );
     }
@@ -39,15 +43,15 @@ function RenderCards({resources}) {
         dots: true,
         arrows: true,
         infinite: true,
-        speed: 500,
-        slidesToShow: 4,
-        slidesToScroll: 4,
+        speed: 750,
+        slidesToShow: 3,
+        slidesToScroll: 1,
         responsive: [
             {
               breakpoint: 992,
               settings: {
-                slidesToShow: 3,
-                slidesToScroll: 3,
+                slidesToShow: 2,
+                slidesToScroll: 2,
                 infinite: true,
                 dots: true
               }

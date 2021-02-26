@@ -10,7 +10,7 @@ function RenderArtistItem({category, artist}) {
 
            {/* Dynamically alternate images left and right by adding "order-md-last" to odd artist IDs  */}
 
-            <div className={`col-sm-4 text-center px-4 ${(artist.id % 2) ? 'order-md-last' : ''}`} >
+            <div className={`col-sm-4 text-center px-4 ${(artist.id % 2) ? '' : 'order-md-last'}`} >
                     <img className="d-flex mr-3 img-thumbnail" src={artist.image} alt={artist.name} />
                     <Link to={`/${category}/${artist.id}`}>
                         <Button className="my-3" color="danger">View My Gallery</Button>

@@ -30,7 +30,7 @@ function Faq({faqitems}) {
                 <div className="row row-noseparator align-items-top">
                     <div className="col-sm-6">
                         <h3>Frequently Asked Questions</h3>
-                        <p className="text-light">We know there are a lot of questions regarding tattoos, fortunately you are not alone. Below we have gathered some of the most common questions regarding your new tattoo. If you comb through this and don't see your answer, please feel free to reach out to us through the contact
+                        <p className="text-light">We know there are a lot of questions regarding tattoos, fortunately you are not alone. Below we have gathered some of the most common questions regarding your new tattoo. If you comb through this and don't see your answer, please feel free to reach out to us through the contact page.
                         </p>
                     </div>
                     <div className="col-sm-6">

@@ -55,7 +55,7 @@ form {
 
 #tab-content {
   border: 1px solid #DDD;
-  border-top: none;
+
   padding: 10px; }
   
 .nav-tabs {
@@ -246,8 +246,8 @@ a, a:hover {
   bottom: 0; }
 
 .photo-news img {
-  width: 100%;
-  height: 500px;
+  height: 100%;
+  width: 600px;
   object-fit: cover; }
 
 /* Formatting for the calendar on news page */

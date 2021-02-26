@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import { Card, CardImg, CardText, CardBody, CardTitle, Button } from 'reactstrap';
-import CardCarousel from './CardCarouselComponent';
 import HomeCarousel from './HomeCarouselComponent';
 
 
@@ -108,7 +107,6 @@ class Home extends Component {
 
 
                 </div>
-               {/* <CardCarousel resources={this.props.resources} /> */}
             </React.Fragment>
         );
     }
