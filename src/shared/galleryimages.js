@@ -5,8 +5,8 @@ export const GALLERYIMAGES = [
         type: 'neotraditional',
         typecode: 1,
         artist: 1,
-        image_thumb: 'assets/images/gallery/gallery1-1.jpg',
-        image_full: 'assets/images/gallery/gallery1-1.jpg'
+        image_thumb: '/assets/images/gallery/gallery1-1.jpg',
+        image_full: '/assets/images/gallery/gallery1-1.jpg'
     },
     {
         id: 2,
@@ -14,8 +14,8 @@ export const GALLERYIMAGES = [
         type: 'neotraditional',
         typecode: 1,
         artist: 2,
-        image_thumb: 'assets/images/gallery/gallery1-2.jpg',
-        image_full: 'assets/images/gallery/gallery1-2.jpg'
+        image_thumb: '/assets/images/gallery/gallery1-2.jpg',
+        image_full: '/assets/images/gallery/gallery1-2.jpg'
     },
     {
         id: 3,
@@ -23,8 +23,8 @@ export const GALLERYIMAGES = [
         type: 'neotraditional',
         typecode: 1,
         artist: 3,
-        image_thumb: 'assets/images/gallery/gallery1-3.jpg',
-        image_full: 'assets/images/gallery/gallery1-3.jpg'
+        image_thumb: '/assets/images/gallery/gallery1-3.jpg',
+        image_full: '/assets/images/gallery/gallery1-3.jpg'
     },
     {
         id: 4,
@@ -32,8 +32,8 @@ export const GALLERYIMAGES = [
         type: 'neotraditional',
         typecode: 1,
         artist: 4,
-        image_thumb: 'assets/images/gallery/gallery1-4.jpg',
-        image_full: 'assets/images/gallery/gallery1-4.jpg'
+        image_thumb: '/assets/images/gallery/gallery1-4.jpg',
+        image_full: '/assets/images/gallery/gallery1-4.jpg'
     },
     {
         id: 5,
@@ -41,8 +41,8 @@ export const GALLERYIMAGES = [
         type: 'neotraditional',
         typecode: 1,
         artist: 5,
-        image_thumb: 'assets/images/gallery/gallery1-5.jpg',
-        image_full: 'assets/images/gallery/gallery1-5.jpg'
+        image_thumb: '/assets/images/gallery/gallery1-5.jpg',
+        image_full: '/assets/images/gallery/gallery1-5.jpg'
     },
     {
         id: 6,
@@ -50,8 +50,8 @@ export const GALLERYIMAGES = [
         type: 'neotraditional',
         typecode: 1,
         artist: 6,
-        image_thumb: 'assets/images/gallery/gallery1-6.jpg',
-        image_full: 'assets/images/gallery/gallery1-6.jpg'
+        image_thumb: '/assets/images/gallery/gallery1-6.jpg',
+        image_full: '/assets/images/gallery/gallery1-6.jpg'
     },
     {
         id: 7,
@@ -59,8 +59,8 @@ export const GALLERYIMAGES = [
         type: 'neotraditional',
         typecode: 1,
         artist: 7,
-        image_thumb: 'assets/images/gallery/gallery1-7.jpg',
-        image_full: 'assets/images/gallery/gallery1-7.jpg'
+        image_thumb: '/assets/images/gallery/gallery1-7.jpg',
+        image_full: '/assets/images/gallery/gallery1-7.jpg'
     },
     {
         id: 8,
@@ -68,8 +68,8 @@ export const GALLERYIMAGES = [
         type: 'neotraditional',
         typecode: 1,
         artist: 8,
-        image_thumb: 'assets/images/gallery/gallery1-8.jpg',
-        image_full: 'assets/images/gallery/gallery1-8.jpg'
+        image_thumb: '/assets/images/gallery/gallery1-8.jpg',
+        image_full: '/assets/images/gallery/gallery1-8.jpg'
     },
     {
         id: 9,
@@ -77,8 +77,8 @@ export const GALLERYIMAGES = [
         type: 'neotraditional',
         typecode: 1,
         artist: 1,
-        image_thumb: 'assets/images/gallery/gallery1-9.jpg',
-        image_full: 'assets/images/gallery/gallery1-9.jpg'
+        image_thumb: '/assets/images/gallery/gallery1-9.jpg',
+        image_full: '/assets/images/gallery/gallery1-9.jpg'
     },
     {
         id: 10,
@@ -86,8 +86,8 @@ export const GALLERYIMAGES = [
         type: 'neotraditional',
         typecode: 1,
         artist: 2,
-        image_thumb: 'assets/images/gallery/gallery1-10.jpg',
-        image_full: 'assets/images/gallery/gallery1-10.jpg'
+        image_thumb: '/assets/images/gallery/gallery1-10.jpg',
+        image_full: '/assets/images/gallery/gallery1-10.jpg'
     },
     {
         id: 11,
@@ -95,8 +95,8 @@ export const GALLERYIMAGES = [
         type: 'neotraditional',
         typecode: 1,
         artist: 3,
-        image_thumb: 'assets/images/gallery/gallery1-11.jpg',
-        image_full: 'assets/images/gallery/gallery1-11.jpg'
+        image_thumb: '/assets/images/gallery/gallery1-11.jpg',
+        image_full: '/assets/images/gallery/gallery1-11.jpg'
     },
     {
         id: 12,
@@ -104,8 +104,8 @@ export const GALLERYIMAGES = [
         type: 'neotraditional',
         typecode: 1,
         artist: 4,
-        image_thumb: 'assets/images/gallery/gallery1-12.jpg',
-        image_full: 'assets/images/gallery/gallery1-12.jpg'
+        image_thumb: '/assets/images/gallery/gallery1-12.jpg',
+        image_full: '/assets/images/gallery/gallery1-12.jpg'
     },
 
 
@@ -115,8 +115,8 @@ export const GALLERYIMAGES = [
         type: 'newschool',
         typecode: 2,
         artist: 5,
-        image_thumb: 'assets/images/gallery/gallery2-1.jpg',
-        image_full: 'assets/images/gallery/gallery2-1.jpg'
+        image_thumb: '/assets/images/gallery/gallery2-1.jpg',
+        image_full: '/assets/images/gallery/gallery2-1.jpg'
     },
     {
         id: 14,
@@ -124,8 +124,8 @@ export const GALLERYIMAGES = [
         type: 'newschool',
         typecode: 2,
         artist: 6,
-        image_thumb: 'assets/images/gallery/gallery2-2.jpg',
-        image_full: 'assets/images/gallery/gallery2-2.jpg'
+        image_thumb: '/assets/images/gallery/gallery2-2.jpg',
+        image_full: '/assets/images/gallery/gallery2-2.jpg'
     },
     {
         id: 15,
@@ -133,8 +133,8 @@ export const GALLERYIMAGES = [
         type: 'newschool',
         typecode: 2,
         artist: 7,
-        image_thumb: 'assets/images/gallery/gallery2-3.jpg',
-        image_full: 'assets/images/gallery/gallery2-3.jpg'
+        image_thumb: '/assets/images/gallery/gallery2-3.jpg',
+        image_full: '/assets/images/gallery/gallery2-3.jpg'
     },
     {
         id: 16,
@@ -142,8 +142,8 @@ export const GALLERYIMAGES = [
         type: 'newschool',
         typecode: 2,
         artist: 8,
-        image_thumb: 'assets/images/gallery/gallery2-4.jpg',
-        image_full: 'assets/images/gallery/gallery2-4.jpg'
+        image_thumb: '/assets/images/gallery/gallery2-4.jpg',
+        image_full: '/assets/images/gallery/gallery2-4.jpg'
     },
     {
         id: 17,
@@ -151,8 +151,8 @@ export const GALLERYIMAGES = [
         type: 'newschool',
         typecode: 2,
         artist: 1,
-        image_thumb: 'assets/images/gallery/gallery2-5.jpg',
-        image_full: 'assets/images/gallery/gallery2-5.jpg'
+        image_thumb: '/assets/images/gallery/gallery2-5.jpg',
+        image_full: '/assets/images/gallery/gallery2-5.jpg'
     },
     {
         id: 18,
@@ -160,8 +160,8 @@ export const GALLERYIMAGES = [
         type: 'newschool',
         typecode: 2,
         artist: 2,
-        image_thumb: 'assets/images/gallery/gallery2-6.jpg',
-        image_full: 'assets/images/gallery/gallery2-6.jpg'
+        image_thumb: '/assets/images/gallery/gallery2-6.jpg',
+        image_full: '/assets/images/gallery/gallery2-6.jpg'
     },
     {
         id: 19,
@@ -169,8 +169,8 @@ export const GALLERYIMAGES = [
         type: 'newschool',
         typecode: 2,
         artist: 3,
-        image_thumb: 'assets/images/gallery/gallery2-7.jpg',
-        image_full: 'assets/images/gallery/gallery2-7.jpg'
+        image_thumb: '/assets/images/gallery/gallery2-7.jpg',
+        image_full: '/assets/images/gallery/gallery2-7.jpg'
     },
     {
         id: 20,
@@ -178,8 +178,8 @@ export const GALLERYIMAGES = [
         type: 'newschool',
         typecode: 2,
         artist: 4,
-        image_thumb: 'assets/images/gallery/gallery2-8.jpg',
-        image_full: 'assets/images/gallery/gallery2-8.jpg'
+        image_thumb: '/assets/images/gallery/gallery2-8.jpg',
+        image_full: '/assets/images/gallery/gallery2-8.jpg'
     },
     {
         id: 21,
@@ -187,8 +187,8 @@ export const GALLERYIMAGES = [
         type: 'newschool',
         typecode: 2,
         artist: 5,
-        image_thumb: 'assets/images/gallery/gallery2-9.jpg',
-        image_full: 'assets/images/gallery/gallery2-9.jpg'
+        image_thumb: '/assets/images/gallery/gallery2-9.jpg',
+        image_full: '/assets/images/gallery/gallery2-9.jpg'
     },
     {
         id: 22,
@@ -196,8 +196,8 @@ export const GALLERYIMAGES = [
         type: 'newschool',
         typecode: 2,
         artist: 6,
-        image_thumb: 'assets/images/gallery/gallery2-10.jpg',
-        image_full: 'assets/images/gallery/gallery2-10.jpg'
+        image_thumb: '/assets/images/gallery/gallery2-10.jpg',
+        image_full: '/assets/images/gallery/gallery2-10.jpg'
     },
     {
         id: 23,
@@ -205,8 +205,8 @@ export const GALLERYIMAGES = [
         type: 'newschool',
         typecode: 2,
         artist: 7,
-        image_thumb: 'assets/images/gallery/gallery2-11.jpg',
-        image_full: 'assets/images/gallery/gallery2-11.jpg'
+        image_thumb: '/assets/images/gallery/gallery2-11.jpg',
+        image_full: '/assets/images/gallery/gallery2-11.jpg'
     },
     {
         id: 24,
@@ -214,8 +214,8 @@ export const GALLERYIMAGES = [
         type: 'newschool',
         typecode: 2,
         artist: 8,
-        image_thumb: 'assets/images/gallery/gallery2-12.jpg',
-        image_full: 'assets/images/gallery/gallery2-12.jpg'
+        image_thumb: '/assets/images/gallery/gallery2-12.jpg',
+        image_full: '/assets/images/gallery/gallery2-12.jpg'
     },
 
 
@@ -225,8 +225,8 @@ export const GALLERYIMAGES = [
         type: 'americantraditional',
         typecode: 3,
         artist: 1,
-        image_thumb: 'assets/images/gallery/gallery3-1.jpg',
-        image_full: 'assets/images/gallery/gallery3-1.jpg'
+        image_thumb: '/assets/images/gallery/gallery3-1.jpg',
+        image_full: '/assets/images/gallery/gallery3-1.jpg'
     },
     {
         id: 26,
@@ -234,8 +234,8 @@ export const GALLERYIMAGES = [
         type: 'americantraditional',
         typecode: 3,
         artist: 2,
-        image_thumb: 'assets/images/gallery/gallery3-2.jpg',
-        image_full: 'assets/images/gallery/gallery3-2.jpg'
+        image_thumb: '/assets/images/gallery/gallery3-2.jpg',
+        image_full: '/assets/images/gallery/gallery3-2.jpg'
     },
     {
         id: 27,
@@ -243,8 +243,8 @@ export const GALLERYIMAGES = [
         type: 'americantraditional',
         typecode: 3,
         artist: 3,
-        image_thumb: 'assets/images/gallery/gallery3-3.jpg',
-        image_full: 'assets/images/gallery/gallery3-3.jpg'
+        image_thumb: '/assets/images/gallery/gallery3-3.jpg',
+        image_full: '/assets/images/gallery/gallery3-3.jpg'
     },
     {
         id: 28,
@@ -252,8 +252,8 @@ export const GALLERYIMAGES = [
         type: 'americantraditional',
         typecode: 3,
         artist: 4,
-        image_thumb: 'assets/images/gallery/gallery3-4.jpg',
-        image_full: 'assets/images/gallery/gallery3-4.jpg'
+        image_thumb: '/assets/images/gallery/gallery3-4.jpg',
+        image_full: '/assets/images/gallery/gallery3-4.jpg'
     },
     {
         id: 29,
@@ -261,8 +261,8 @@ export const GALLERYIMAGES = [
         type: 'americantraditional',
         typecode: 3,
         artist: 5,
-        image_thumb: 'assets/images/gallery/gallery3-5.jpg',
-        image_full: 'assets/images/gallery/gallery3-5.jpg'
+        image_thumb: '/assets/images/gallery/gallery3-5.jpg',
+        image_full: '/assets/images/gallery/gallery3-5.jpg'
     },
     {
         id: 30,
@@ -270,8 +270,8 @@ export const GALLERYIMAGES = [
         type: 'americantraditional',
         typecode: 3,
         artist: 6,
-        image_thumb: 'assets/images/gallery/gallery3-6.jpg',
-        image_full: 'assets/images/gallery/gallery3-6.jpg'
+        image_thumb: '/assets/images/gallery/gallery3-6.jpg',
+        image_full: '/assets/images/gallery/gallery3-6.jpg'
     },
     {
         id: 31,
@@ -279,8 +279,8 @@ export const GALLERYIMAGES = [
         type: 'americantraditional',
         typecode: 3,
         artist: 7,
-        image_thumb: 'assets/images/gallery/gallery3-7.jpg',
-        image_full: 'assets/images/gallery/gallery3-7.jpg'
+        image_thumb: '/assets/images/gallery/gallery3-7.jpg',
+        image_full: '/assets/images/gallery/gallery3-7.jpg'
     },
     {
         id: 32,
@@ -288,8 +288,8 @@ export const GALLERYIMAGES = [
         type: 'americantraditional',
         typecode: 3,
         artist: 8,
-        image_thumb: 'assets/images/gallery/gallery3-8.jpg',
-        image_full: 'assets/images/gallery/gallery3-8.jpg'
+        image_thumb: '/assets/images/gallery/gallery3-8.jpg',
+        image_full: '/assets/images/gallery/gallery3-8.jpg'
     },
     {
         id: 33,
@@ -297,8 +297,8 @@ export const GALLERYIMAGES = [
         type: 'americantraditional',
         typecode: 3,
         artist: 1,
-        image_thumb: 'assets/images/gallery/gallery3-9.jpg',
-        image_full: 'assets/images/gallery/gallery3-9.jpg'
+        image_thumb: '/assets/images/gallery/gallery3-9.jpg',
+        image_full: '/assets/images/gallery/gallery3-9.jpg'
     },
     {
         id: 34,
@@ -306,8 +306,8 @@ export const GALLERYIMAGES = [
         type: 'americantraditional',
         typecode: 3,
         artist: 2,
-        image_thumb: 'assets/images/gallery/gallery3-10.jpg',
-        image_full: 'assets/images/gallery/gallery3-10.jpg'
+        image_thumb: '/assets/images/gallery/gallery3-10.jpg',
+        image_full: '/assets/images/gallery/gallery3-10.jpg'
     },
     {
         id: 35,
@@ -315,8 +315,8 @@ export const GALLERYIMAGES = [
         type: 'americantraditional',
         typecode: 3,
         artist: 3,
-        image_thumb: 'assets/images/gallery/gallery3-11.jpg',
-        image_full: 'assets/images/gallery/gallery3-11.jpg'
+        image_thumb: '/assets/images/gallery/gallery3-11.jpg',
+        image_full: '/assets/images/gallery/gallery3-11.jpg'
     },
     {
         id: 36,
@@ -324,8 +324,8 @@ export const GALLERYIMAGES = [
         type: 'americantraditional',
         typecode: 3,
         artist: 4,
-        image_thumb: 'assets/images/gallery/gallery3-12.jpg',
-        image_full: 'assets/images/gallery/gallery3-12.jpg'
+        image_thumb: '/assets/images/gallery/gallery3-12.jpg',
+        image_full: '/assets/images/gallery/gallery3-12.jpg'
     },
 
 
@@ -335,8 +335,8 @@ export const GALLERYIMAGES = [
         type: 'japanese',
         typecode: 4,
         artist: 5,
-        image_thumb: 'assets/images/gallery/gallery4-1.jpg',
-        image_full: 'assets/images/gallery/gallery4-1.jpg'
+        image_thumb: '/assets/images/gallery/gallery4-1.jpg',
+        image_full: '/assets/images/gallery/gallery4-1.jpg'
     },
     {
         id: 38,
@@ -344,8 +344,8 @@ export const GALLERYIMAGES = [
         type: 'japanese',
         typecode: 4,
         artist: 6,
-        image_thumb: 'assets/images/gallery/gallery4-2.jpg',
-        image_full: 'assets/images/gallery/gallery4-2.jpg'
+        image_thumb: '/assets/images/gallery/gallery4-2.jpg',
+        image_full: '/assets/images/gallery/gallery4-2.jpg'
     },
     {
         id: 39,
@@ -353,8 +353,8 @@ export const GALLERYIMAGES = [
         type: 'japanese',
         typecode: 4,
         artist: 7,
-        image_thumb: 'assets/images/gallery/gallery4-3.jpg',
-        image_full: 'assets/images/gallery/gallery4-3.jpg'
+        image_thumb: '/assets/images/gallery/gallery4-3.jpg',
+        image_full: '/assets/images/gallery/gallery4-3.jpg'
     },
     {
         id: 40,
@@ -362,8 +362,8 @@ export const GALLERYIMAGES = [
         type: 'japanese',
         typecode: 4,
         artist: 8,
-        image_thumb: 'assets/images/gallery/gallery4-4.jpg',
-        image_full: 'assets/images/gallery/gallery4-4.jpg'
+        image_thumb: '/assets/images/gallery/gallery4-4.jpg',
+        image_full: '/assets/images/gallery/gallery4-4.jpg'
     },
     {
         id: 41,
@@ -371,8 +371,8 @@ export const GALLERYIMAGES = [
         type: 'japanese',
         typecode: 4,
         artist: 1,
-        image_thumb: 'assets/images/gallery/gallery4-5.jpg',
-        image_full: 'assets/images/gallery/gallery4-5.jpg'
+        image_thumb: '/assets/images/gallery/gallery4-5.jpg',
+        image_full: '/assets/images/gallery/gallery4-5.jpg'
     },
     {
         id: 42,
@@ -380,8 +380,8 @@ export const GALLERYIMAGES = [
         type: 'japanese',
         typecode: 4,
         artist: 2,
-        image_thumb: 'assets/images/gallery/gallery4-6.jpg',
-        image_full: 'assets/images/gallery/gallery4-6.jpg'
+        image_thumb: '/assets/images/gallery/gallery4-6.jpg',
+        image_full: '/assets/images/gallery/gallery4-6.jpg'
     },
     {
         id: 43,
@@ -389,8 +389,8 @@ export const GALLERYIMAGES = [
         type: 'japanese',
         typecode: 4,
         artist: 3,
-        image_thumb: 'assets/images/gallery/gallery4-7.jpg',
-        image_full: 'assets/images/gallery/gallery4-7.jpg'
+        image_thumb: '/assets/images/gallery/gallery4-7.jpg',
+        image_full: '/assets/images/gallery/gallery4-7.jpg'
     },
     {
         id: 44,
@@ -398,8 +398,8 @@ export const GALLERYIMAGES = [
         type: 'japanese',
         typecode: 4,
         artist: 4,
-        image_thumb: 'assets/images/gallery/gallery4-8.jpg',
-        image_full: 'assets/images/gallery/gallery4-8.jpg'
+        image_thumb: '/assets/images/gallery/gallery4-8.jpg',
+        image_full: '/assets/images/gallery/gallery4-8.jpg'
     },
     {
         id: 45,
@@ -407,8 +407,8 @@ export const GALLERYIMAGES = [
         type: 'japanese',
         typecode: 4,
         artist: 5,
-        image_thumb: 'assets/images/gallery/gallery4-9.jpg',
-        image_full: 'assets/images/gallery/gallery4-9.jpg'
+        image_thumb: '/assets/images/gallery/gallery4-9.jpg',
+        image_full: '/assets/images/gallery/gallery4-9.jpg'
     },
     {
         id: 46,
@@ -416,8 +416,8 @@ export const GALLERYIMAGES = [
         type: 'japanese',
         typecode: 4,
         artist: 6,
-        image_thumb: 'assets/images/gallery/gallery4-10.jpg',
-        image_full: 'assets/images/gallery/gallery4-10.jpg'
+        image_thumb: '/assets/images/gallery/gallery4-10.jpg',
+        image_full: '/assets/images/gallery/gallery4-10.jpg'
     },
     {
         id: 47,
@@ -425,8 +425,8 @@ export const GALLERYIMAGES = [
         type: 'japanese',
         typecode: 4,
         artist: 7,
-        image_thumb: 'assets/images/gallery/gallery4-11.jpg',
-        image_full: 'assets/images/gallery/gallery4-11.jpg'
+        image_thumb: '/assets/images/gallery/gallery4-11.jpg',
+        image_full: '/assets/images/gallery/gallery4-11.jpg'
     },
     {
         id: 48,
@@ -434,8 +434,8 @@ export const GALLERYIMAGES = [
         type: 'japanese',
         typecode: 4,
         artist: 8,
-        image_thumb: 'assets/images/gallery/gallery4-12.jpg',
-        image_full: 'assets/images/gallery/gallery4-12.jpg'
+        image_thumb: '/assets/images/gallery/gallery4-12.jpg',
+        image_full: '/assets/images/gallery/gallery4-12.jpg'
     },
 
     {
@@ -444,8 +444,8 @@ export const GALLERYIMAGES = [
         type: 'watercolor',
         typecode: 5,
         artist: 1,
-        image_thumb: 'assets/images/gallery/gallery5-1.jpg',
-        image_full: 'assets/images/gallery/gallery5-1.jpg'
+        image_thumb: '/assets/images/gallery/gallery5-1.jpg',
+        image_full: '/assets/images/gallery/gallery5-1.jpg'
     },
     {
         id: 50,
@@ -453,8 +453,8 @@ export const GALLERYIMAGES = [
         type: 'watercolor',
         typecode: 5,
         artist: 2,
-        image_thumb: 'assets/images/gallery/gallery5-2.jpg',
-        image_full: 'assets/images/gallery/gallery5-2.jpg'
+        image_thumb: '/assets/images/gallery/gallery5-2.jpg',
+        image_full: '/assets/images/gallery/gallery5-2.jpg'
     },
     {
         id: 51,
@@ -462,8 +462,8 @@ export const GALLERYIMAGES = [
         type: 'watercolor',
         typecode: 5,
         artist: 3,
-        image_thumb: 'assets/images/gallery/gallery5-3.jpg',
-        image_full: 'assets/images/gallery/gallery5-3.jpg'
+        image_thumb: '/assets/images/gallery/gallery5-3.jpg',
+        image_full: '/assets/images/gallery/gallery5-3.jpg'
     },
     {
         id: 52,
@@ -471,8 +471,8 @@ export const GALLERYIMAGES = [
         type: 'watercolor',
         typecode: 5,
         artist: 4,
-        image_thumb: 'assets/images/gallery/gallery5-4.jpg',
-        image_full: 'assets/images/gallery/gallery5-4.jpg'
+        image_thumb: '/assets/images/gallery/gallery5-4.jpg',
+        image_full: '/assets/images/gallery/gallery5-4.jpg'
     },
     {
         id: 53,
@@ -480,8 +480,8 @@ export const GALLERYIMAGES = [
         type: 'watercolor',
         typecode: 5,
         artist: 5,
-        image_thumb: 'assets/images/gallery/gallery5-5.jpg',
-        image_full: 'assets/images/gallery/gallery5-5.jpg'
+        image_thumb: '/assets/images/gallery/gallery5-5.jpg',
+        image_full: '/assets/images/gallery/gallery5-5.jpg'
     },
     {
         id: 54,
@@ -489,8 +489,8 @@ export const GALLERYIMAGES = [
         type: 'watercolor',
         typecode: 5,
         artist: 6,
-        image_thumb: 'assets/images/gallery/gallery5-6.jpg',
-        image_full: 'assets/images/gallery/gallery5-6.jpg'
+        image_thumb: '/assets/images/gallery/gallery5-6.jpg',
+        image_full: '/assets/images/gallery/gallery5-6.jpg'
     },
     {
         id: 55,
@@ -498,8 +498,8 @@ export const GALLERYIMAGES = [
         type: 'watercolor',
         typecode: 5,
         artist: 7,
-        image_thumb: 'assets/images/gallery/gallery5-7.jpg',
-        image_full: 'assets/images/gallery/gallery5-7.jpg'
+        image_thumb: '/assets/images/gallery/gallery5-7.jpg',
+        image_full: '/assets/images/gallery/gallery5-7.jpg'
     },
     {
         id: 56,
@@ -507,8 +507,8 @@ export const GALLERYIMAGES = [
         type: 'watercolor',
         typecode: 5,
         artist: 8,
-        image_thumb: 'assets/images/gallery/gallery5-8.jpg',
-        image_full: 'assets/images/gallery/gallery5-8.jpg'
+        image_thumb: '/assets/images/gallery/gallery5-8.jpg',
+        image_full: '/assets/images/gallery/gallery5-8.jpg'
     },
     {
         id: 57,
@@ -516,8 +516,8 @@ export const GALLERYIMAGES = [
         type: 'watercolor',
         typecode: 5,
         artist: 1,
-        image_thumb: 'assets/images/gallery/gallery5-9.jpg',
-        image_full: 'assets/images/gallery/gallery5-9.jpg'
+        image_thumb: '/assets/images/gallery/gallery5-9.jpg',
+        image_full: '/assets/images/gallery/gallery5-9.jpg'
     },
     {
         id: 58,
@@ -525,8 +525,8 @@ export const GALLERYIMAGES = [
         type: 'watercolor',
         typecode: 5,
         artist: 2,
-        image_thumb: 'assets/images/gallery/gallery5-10.jpg',
-        image_full: 'assets/images/gallery/gallery5-10.jpg'
+        image_thumb: '/assets/images/gallery/gallery5-10.jpg',
+        image_full: '/assets/images/gallery/gallery5-10.jpg'
     },
     {
         id: 59,
@@ -534,8 +534,8 @@ export const GALLERYIMAGES = [
         type: 'watercolor',
         typecode: 5,
         artist: 3,
-        image_thumb: 'assets/images/gallery/gallery5-11.jpg',
-        image_full: 'assets/images/gallery/gallery5-11.jpg'
+        image_thumb: '/assets/images/gallery/gallery5-11.jpg',
+        image_full: '/assets/images/gallery/gallery5-11.jpg'
     },
     {
         id: 60,
@@ -543,8 +543,8 @@ export const GALLERYIMAGES = [
         type: 'watercolor',
         typecode: 5,
         artist: 4,
-        image_thumb: 'assets/images/gallery/gallery5-12.jpg',
-        image_full: 'assets/images/gallery/gallery5-12.jpg'
+        image_thumb: '/assets/images/gallery/gallery5-12.jpg',
+        image_full: '/assets/images/gallery/gallery5-12.jpg'
     },
 
 
@@ -554,8 +554,8 @@ export const GALLERYIMAGES = [
         type: 'tribal',
         typecode: 6,
         artist: 5,
-        image_thumb: 'assets/images/gallery/gallery6-1.jpg',
-        image_full: 'assets/images/gallery/gallery6-1.jpg'
+        image_thumb: '/assets/images/gallery/gallery6-1.jpg',
+        image_full: '/assets/images/gallery/gallery6-1.jpg'
     },
     {
         id: 62,
@@ -563,8 +563,8 @@ export const GALLERYIMAGES = [
         type: 'tribal',
         typecode: 6,
         artist: 6,
-        image_thumb: 'assets/images/gallery/gallery6-2.jpg',
-        image_full: 'assets/images/gallery/gallery6-2.jpg'
+        image_thumb: '/assets/images/gallery/gallery6-2.jpg',
+        image_full: '/assets/images/gallery/gallery6-2.jpg'
     },
     {
         id: 63,
@@ -572,8 +572,8 @@ export const GALLERYIMAGES = [
         type: 'tribal',
         typecode: 6,
         artist: 7,
-        image_thumb: 'assets/images/gallery/gallery6-3.jpg',
-        image_full: 'assets/images/gallery/gallery6-3.jpg'
+        image_thumb: '/assets/images/gallery/gallery6-3.jpg',
+        image_full: '/assets/images/gallery/gallery6-3.jpg'
     },
     {
         id: 64,
@@ -581,8 +581,8 @@ export const GALLERYIMAGES = [
         type: 'tribal',
         typecode: 6,
         artist: 8,
-        image_thumb: 'assets/images/gallery/gallery6-4.jpg',
-        image_full: 'assets/images/gallery/gallery6-4.jpg'
+        image_thumb: '/assets/images/gallery/gallery6-4.jpg',
+        image_full: '/assets/images/gallery/gallery6-4.jpg'
     },
     {
         id: 65,
@@ -590,8 +590,8 @@ export const GALLERYIMAGES = [
         type: 'tribal',
         typecode: 6,
         artist: 1,
-        image_thumb: 'assets/images/gallery/gallery6-5.jpg',
-        image_full: 'assets/images/gallery/gallery6-5.jpg'
+        image_thumb: '/assets/images/gallery/gallery6-5.jpg',
+        image_full: '/assets/images/gallery/gallery6-5.jpg'
     },
     {
         id: 66,
@@ -599,8 +599,8 @@ export const GALLERYIMAGES = [
         type: 'tribal',
         typecode: 6,
         artist: 2,
-        image_thumb: 'assets/images/gallery/gallery6-6.jpg',
-        image_full: 'assets/images/gallery/gallery6-6.jpg'
+        image_thumb: '/assets/images/gallery/gallery6-6.jpg',
+        image_full: '/assets/images/gallery/gallery6-6.jpg'
     },
     {
         id: 67,
@@ -608,8 +608,8 @@ export const GALLERYIMAGES = [
         type: 'tribal',
         typecode: 6,
         artist: 3,
-        image_thumb: 'assets/images/gallery/gallery6-7.jpg',
-        image_full: 'assets/images/gallery/gallery6-7.jpg'
+        image_thumb: '/assets/images/gallery/gallery6-7.jpg',
+        image_full: '/assets/images/gallery/gallery6-7.jpg'
     },
     {
         id: 68,
@@ -617,8 +617,8 @@ export const GALLERYIMAGES = [
         type: 'tribal',
         typecode: 6,
         artist: 4,
-        image_thumb: 'assets/images/gallery/gallery6-8.jpg',
-        image_full: 'assets/images/gallery/gallery6-8.jpg'
+        image_thumb: '/assets/images/gallery/gallery6-8.jpg',
+        image_full: '/assets/images/gallery/gallery6-8.jpg'
     },
     {
         id: 69,
@@ -626,8 +626,8 @@ export const GALLERYIMAGES = [
         type: 'tribal',
         typecode: 6,
         artist: 5,
-        image_thumb: 'assets/images/gallery/gallery6-9.jpg',
-        image_full: 'assets/images/gallery/gallery6-9.jpg'
+        image_thumb: '/assets/images/gallery/gallery6-9.jpg',
+        image_full: '/assets/images/gallery/gallery6-9.jpg'
     },
     {
         id: 70,
@@ -635,8 +635,8 @@ export const GALLERYIMAGES = [
         type: 'tribal',
         typecode: 6,
         artist: 6,
-        image_thumb: 'assets/images/gallery/gallery6-10.jpg',
-        image_full: 'assets/images/gallery/gallery6-10.jpg'
+        image_thumb: '/assets/images/gallery/gallery6-10.jpg',
+        image_full: '/assets/images/gallery/gallery6-10.jpg'
     },
     {
         id: 71,
@@ -644,8 +644,8 @@ export const GALLERYIMAGES = [
         type: 'tribal',
         typecode: 6,
         artist: 7,
-        image_thumb: 'assets/images/gallery/gallery6-11.jpg',
-        image_full: 'assets/images/gallery/gallery6-11.jpg'
+        image_thumb: '/assets/images/gallery/gallery6-11.jpg',
+        image_full: '/assets/images/gallery/gallery6-11.jpg'
     },
     {
         id: 72,
@@ -653,8 +653,8 @@ export const GALLERYIMAGES = [
         type: 'tribal',
         typecode: 6,
         artist: 8,
-        image_thumb: 'assets/images/gallery/gallery6-12.jpg',
-        image_full: 'assets/images/gallery/gallery6-12.jpg'
+        image_thumb: '/assets/images/gallery/gallery6-12.jpg',
+        image_full: '/assets/images/gallery/gallery6-12.jpg'
     },
 
     {
@@ -663,8 +663,8 @@ export const GALLERYIMAGES = [
         type: 'biomechanical',
         typecode: 7,
         artist: 1,
-        image_thumb: 'assets/images/gallery/gallery7-1.jpg',
-        image_full: 'assets/images/gallery/gallery7-1.jpg'
+        image_thumb: '/assets/images/gallery/gallery7-1.jpg',
+        image_full: '/assets/images/gallery/gallery7-1.jpg'
     },
     {
         id: 74,
@@ -672,8 +672,8 @@ export const GALLERYIMAGES = [
         type: 'biomechanical',
         typecode: 7,
         artist: 2,
-        image_thumb: 'assets/images/gallery/gallery7-2.jpg',
-        image_full: 'assets/images/gallery/gallery7-2.jpg'
+        image_thumb: '/assets/images/gallery/gallery7-2.jpg',
+        image_full: '/assets/images/gallery/gallery7-2.jpg'
     },
     {
         id: 75,
@@ -681,8 +681,8 @@ export const GALLERYIMAGES = [
         type: 'biomechanical',
         typecode: 7,
         artist: 3,
-        image_thumb: 'assets/images/gallery/gallery7-3.jpg',
-        image_full: 'assets/images/gallery/gallery7-3.jpg'
+        image_thumb: '/assets/images/gallery/gallery7-3.jpg',
+        image_full: '/assets/images/gallery/gallery7-3.jpg'
     },
     {
         id: 76,
@@ -690,8 +690,8 @@ export const GALLERYIMAGES = [
         type: 'biomechanical',
         typecode: 7,
         artist: 4,
-        image_thumb: 'assets/images/gallery/gallery7-4.jpg',
-        image_full: 'assets/images/gallery/gallery7-4.jpg'
+        image_thumb: '/assets/images/gallery/gallery7-4.jpg',
+        image_full: '/assets/images/gallery/gallery7-4.jpg'
     },
     {
         id: 77,
@@ -699,8 +699,8 @@ export const GALLERYIMAGES = [
         type: 'biomechanical',
         typecode: 7,
         artist: 5,
-        image_thumb: 'assets/images/gallery/gallery7-5.jpg',
-        image_full: 'assets/images/gallery/gallery7-5.jpg'
+        image_thumb: '/assets/images/gallery/gallery7-5.jpg',
+        image_full: '/assets/images/gallery/gallery7-5.jpg'
     },
     {
         id: 78,
@@ -708,8 +708,8 @@ export const GALLERYIMAGES = [
         type: 'biomechanical',
         typecode: 7,
         artist: 6,
-        image_thumb: 'assets/images/gallery/gallery7-6.jpg',
-        image_full: 'assets/images/gallery/gallery7-6.jpg'
+        image_thumb: '/assets/images/gallery/gallery7-6.jpg',
+        image_full: '/assets/images/gallery/gallery7-6.jpg'
     },
     {
         id: 79,
@@ -717,8 +717,8 @@ export const GALLERYIMAGES = [
         type: 'biomechanical',
         typecode: 7,
         artist: 7,
-        image_thumb: 'assets/images/gallery/gallery7-7.jpg',
-        image_full: 'assets/images/gallery/gallery7-7.jpg'
+        image_thumb: '/assets/images/gallery/gallery7-7.jpg',
+        image_full: '/assets/images/gallery/gallery7-7.jpg'
     },
     {
         id: 80,
@@ -726,8 +726,8 @@ export const GALLERYIMAGES = [
         type: 'biomechanical',
         typecode: 7,
         artist: 8,
-        image_thumb: 'assets/images/gallery/gallery7-8.jpg',
-        image_full: 'assets/images/gallery/gallery7-8.jpg'
+        image_thumb: '/assets/images/gallery/gallery7-8.jpg',
+        image_full: '/assets/images/gallery/gallery7-8.jpg'
     },
     {
         id: 81,
@@ -735,8 +735,8 @@ export const GALLERYIMAGES = [
         type: 'biomechanical',
         typecode: 7,
         artist: 1,
-        image_thumb: 'assets/images/gallery/gallery7-9.jpg',
-        image_full: 'assets/images/gallery/gallery7-9.jpg'
+        image_thumb: '/assets/images/gallery/gallery7-9.jpg',
+        image_full: '/assets/images/gallery/gallery7-9.jpg'
     },
     {
         id: 82,
@@ -744,8 +744,8 @@ export const GALLERYIMAGES = [
         type: 'biomechanical',
         typecode: 7,
         artist: 2,
-        image_thumb: 'assets/images/gallery/gallery7-10.jpg',
-        image_full: 'assets/images/gallery/gallery7-10.jpg'
+        image_thumb: '/assets/images/gallery/gallery7-10.jpg',
+        image_full: '/assets/images/gallery/gallery7-10.jpg'
     },
     {
         id: 83,
@@ -753,8 +753,8 @@ export const GALLERYIMAGES = [
         type: 'biomechanical',
         typecode: 7,
         artist: 3,
-        image_thumb: 'assets/images/gallery/gallery7-11.jpg',
-        image_full: 'assets/images/gallery/gallery7-11.jpg'
+        image_thumb: '/assets/images/gallery/gallery7-11.jpg',
+        image_full: '/assets/images/gallery/gallery7-11.jpg'
     },
     {
         id: 84,
@@ -762,8 +762,8 @@ export const GALLERYIMAGES = [
         type: 'biomechanical',
         typecode: 7,
         artist: 4,
-        image_thumb: 'assets/images/gallery/gallery7-12.jpg',
-        image_full: 'assets/images/gallery/gallery7-12.jpg'
+        image_thumb: '/assets/images/gallery/gallery7-12.jpg',
+        image_full: '/assets/images/gallery/gallery7-12.jpg'
     },
 
     {
@@ -772,8 +772,8 @@ export const GALLERYIMAGES = [
         type: 'realism',
         typecode: 8,
         artist: 5,
-        image_thumb: 'assets/images/gallery/gallery8-1.jpg',
-        image_full: 'assets/images/gallery/gallery8-1.jpg'
+        image_thumb: '/assets/images/gallery/gallery8-1.jpg',
+        image_full: '/assets/images/gallery/gallery8-1.jpg'
     },
     {
         id: 86,
@@ -781,8 +781,8 @@ export const GALLERYIMAGES = [
         type: 'realism',
         typecode: 8,
         artist: 6,
-        image_thumb: 'assets/images/gallery/gallery8-2.jpg',
-        image_full: 'assets/images/gallery/gallery8-2.jpg'
+        image_thumb: '/assets/images/gallery/gallery8-2.jpg',
+        image_full: '/assets/images/gallery/gallery8-2.jpg'
     },
     {
         id: 87,
@@ -790,8 +790,8 @@ export const GALLERYIMAGES = [
         type: 'realism',
         typecode: 8,
         artist: 7,
-        image_thumb: 'assets/images/gallery/gallery8-3.jpg',
-        image_full: 'assets/images/gallery/gallery8-3.jpg'
+        image_thumb: '/assets/images/gallery/gallery8-3.jpg',
+        image_full: '/assets/images/gallery/gallery8-3.jpg'
     },
     {
         id: 88,
@@ -799,8 +799,8 @@ export const GALLERYIMAGES = [
         type: 'realism',
         typecode: 8,
         artist: 8,
-        image_thumb: 'assets/images/gallery/gallery8-4.jpg',
-        image_full: 'assets/images/gallery/gallery8-4.jpg'
+        image_thumb: '/assets/images/gallery/gallery8-4.jpg',
+        image_full: '/assets/images/gallery/gallery8-4.jpg'
     },
     {
         id: 89,
@@ -808,8 +808,8 @@ export const GALLERYIMAGES = [
         type: 'realism',
         typecode: 8,
         artist: 1,
-        image_thumb: 'assets/images/gallery/gallery8-5.jpg',
-        image_full: 'assets/images/gallery/gallery8-5.jpg'
+        image_thumb: '/assets/images/gallery/gallery8-5.jpg',
+        image_full: '/assets/images/gallery/gallery8-5.jpg'
     },
     {
         id: 90,
@@ -817,8 +817,8 @@ export const GALLERYIMAGES = [
         type: 'realism',
         typecode: 8,
         artist: 2,
-        image_thumb: 'assets/images/gallery/gallery8-6.jpg',
-        image_full: 'assets/images/gallery/gallery8-6.jpg'
+        image_thumb: '/assets/images/gallery/gallery8-6.jpg',
+        image_full: '/assets/images/gallery/gallery8-6.jpg'
     },
     {
         id: 91,
@@ -826,8 +826,8 @@ export const GALLERYIMAGES = [
         type: 'realism',
         typecode: 8,
         artist: 3,
-        image_thumb: 'assets/images/gallery/gallery8-7.jpg',
-        image_full: 'assets/images/gallery/gallery8-7.jpg'
+        image_thumb: '/assets/images/gallery/gallery8-7.jpg',
+        image_full: '/assets/images/gallery/gallery8-7.jpg'
     },
     {
         id: 92,
@@ -835,8 +835,8 @@ export const GALLERYIMAGES = [
         type: 'realism',
         typecode: 8,
         artist: 4,
-        image_thumb: 'assets/images/gallery/gallery8-8.jpg',
-        image_full: 'assets/images/gallery/gallery8-8.jpg'
+        image_thumb: '/assets/images/gallery/gallery8-8.jpg',
+        image_full: '/assets/images/gallery/gallery8-8.jpg'
     },
     {
         id: 93,
@@ -844,8 +844,8 @@ export const GALLERYIMAGES = [
         type: 'realism',
         typecode: 8,
         artist: 5,
-        image_thumb: 'assets/images/gallery/gallery8-9.jpg',
-        image_full: 'assets/images/gallery/gallery8-9.jpg'
+        image_thumb: '/assets/images/gallery/gallery8-9.jpg',
+        image_full: '/assets/images/gallery/gallery8-9.jpg'
     },
     {
         id: 94,
@@ -853,8 +853,8 @@ export const GALLERYIMAGES = [
         type: 'realism',
         typecode: 8,
         artist: 6,
-        image_thumb: 'assets/images/gallery/gallery8-10.jpg',
-        image_full: 'assets/images/gallery/gallery8-10.jpg'
+        image_thumb: '/assets/images/gallery/gallery8-10.jpg',
+        image_full: '/assets/images/gallery/gallery8-10.jpg'
     },
     {
         id: 95,
@@ -862,8 +862,8 @@ export const GALLERYIMAGES = [
         type: 'realism',
         typecode: 8,
         artist: 7,
-        image_thumb: 'assets/images/gallery/gallery8-11.jpg',
-        image_full: 'assets/images/gallery/gallery8-11.jpg'
+        image_thumb: '/assets/images/gallery/gallery8-11.jpg',
+        image_full: '/assets/images/gallery/gallery8-11.jpg'
     },
     {
         id: 96,
@@ -871,8 +871,8 @@ export const GALLERYIMAGES = [
         type: 'realism',
         typecode: 8,
         artist: 8,
-        image_thumb: 'assets/images/gallery/gallery8-12.jpg',
-        image_full: 'assets/images/gallery/gallery8-12.jpg'
+        image_thumb: '/assets/images/gallery/gallery8-12.jpg',
+        image_full: '/assets/images/gallery/gallery8-12.jpg'
     }
 
   ]

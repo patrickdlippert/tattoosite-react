@@ -13,7 +13,7 @@ export const REVIEWS = [
         displayName: true,
         image: 'assets/images/reviews/inkedmag.png',
         description: "Inked Magazine stands behind this excellent shop. You'll see some familiar faces from the industry here, all bringing out their best.",
-        url: 'https://inkedmag.com/'
+        url: 'https://www.inkedmag.com/'
     },
     {
         id: 2,
@@ -21,7 +21,7 @@ export const REVIEWS = [
         displayName: true,
         image: 'assets/images/reviews/freshlyinkedmag.png',
         description: "In Tacoma, Tommy Chen and his team deliver a 21-st century experience, raising the bar for the Pacific Northwest tattoo community.",
-        url: 'https://www.inkedshop.com/'
+        url: 'https://freshlyinkedmag.com/'
     },
     {
         id: 3,

@@ -42,7 +42,7 @@ function News({newsitems, reviews}) {
                 </div>
 
                 <div className="row row-content">
-                    <div className="col-sm-10 photo-news">
+                    <div className="col-sm-8 photo-news">
                         <h3 className="pb-4">Latest News</h3>
 
                         <RenderNewsItems newsitems={newsitems} />

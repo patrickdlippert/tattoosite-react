@@ -13,7 +13,7 @@ export const ARTISTS = [
     name_short: 'Brian McNally',
     image: 'assets/images/artists/Artist1.jpg',
     description: "Brian McNally is originally from Los Angeles, and has been tattooing since 2002. He attended the Los Angeles Academy of Fine Art, where his passion for creating art, turned into a career. Whether it's charcoal and paper, paint on canvas or ink on human canvas, Brian is a visionary when it comes to conceptual art. He comes to Bad Panda Tattoo with 18 years of tattooing experience, where he has refined and improved his craft throughout that time. He is eager to continue growing as an artist, with the diverse mixture of current and new clientele.",
-    specialty: 'He enjoys designing custom pieces and working with his clientele to bring their tattoo ideas to reality. Some of his favorite styles to tattoo are: new school, black & gray realism, and watercolor.'
+    specialty: 'Brian enjoys designing custom pieces and working with his clientele to bring their tattoo ideas to reality. Some of his favorite styles to tattoo are: new school, black & gray realism, and watercolor.'
   },
   {
     id: 3,

@@ -1,15 +1,15 @@
 import React, { Component } from 'react';
-import Guide from './GuideComponent';
 import Artists from './ArtistsComponent';
+import Matcher from './MatcherComponent';
 import Header from './HeaderComponent';
 import Footer from './FooterComponent';
 import Home from './HomeComponent';
 import Galleries from './GalleriesComponent';
+import SingleGallery from './SingleGalleryComponent';
 import Shop from './ShopComponent';
 import News from './NewsComponent';
 import Faq from './FaqComponent';
 import Contact from './ContactComponent';
-import HighlightInfo from './HighlightInfoComponent';
 import { Switch, Route, Redirect } from 'react-router-dom';
 import { ARTISTS } from '../shared/artists';
 import { GALLERIES } from '../shared/galleries';
@@ -51,23 +51,13 @@ class Main extends Component {
       );
     }
 
-    const AttractionWithId = ({ match }) => {
+    const ArtistWithId = ({ match }) => {
       return (
-        <HighlightInfo highlight={this.state.attractions.filter(attraction => attraction.id === +match.params.attractionId)[0]} />
+        <SingleGallery artist={this.state.artists.filter(artist => artist.id === +match.params.artistId)[0]} galleryimages={this.state.galleryimages} />
       );
     };
 
-    const RestaurantWithId = ({ match }) => {
-      return (
-        <HighlightInfo highlight={this.state.restaurants.filter(restaurant => restaurant.id === +match.params.restaurantId)[0]} />
-      );
-    };
-    
-    const EventWithId = ({ match }) => {
-      return (
-        <HighlightInfo highlight={this.state.events.filter(event => event.id === +match.params.eventId)[0]} />
-      );
-    };
+
 
     return (
       <div>
@@ -75,17 +65,16 @@ class Main extends Component {
         <ScrollToTop />
         <Switch>
           <Route exact path='/' component={HomePage} />
-          <Route exact path='/artists' render={() => <Artists category={"gallery"} artists={this.state.artists}  />} />
+
+          <Route exact path='/artists' render={() => <Artists category={"artists"} artists={this.state.artists}  />} />
+          
+          <Route path='/artists/:artistId' component={ArtistWithId}  />
+
+          <Route path='/matcher' render={() => <Matcher artists={this.state.artists}  />} />
 
           <Route exact path='/gallery' render={() => <Galleries category={"styles"} galleries={this.state.galleries} galleryimages={this.state.galleryimages} />} />
 
           <Route exact path='/artistgallery' render={() => <Galleries category={"artists"} galleries={this.state.artists} galleryimages={this.state.galleryimages} />} />
-
-          <Route path='/attractions/:attractionId' component={AttractionWithId} />
-          <Route exact path='/restaurants' render={() => <Guide category={"restaurants"} highlights={this.state.restaurants} resources={this.state.sponsors} />} />
-          <Route path='/restaurants/:restaurantId' component={RestaurantWithId} />
-          <Route exact path='/events' render={() => <Guide category={"events"} highlights={this.state.events} resources={this.state.sponsors} />} />
-          <Route path='/events/:eventId' component={EventWithId} />
 
           <Route exact path='/news' render={() => <News newsitems={this.state.news}  reviews={this.state.reviews} />} />
           <Route exact path='/shop' render={() => <Shop shopitems={this.state.shopping}  />} />
