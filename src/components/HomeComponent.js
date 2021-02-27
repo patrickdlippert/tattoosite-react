@@ -37,7 +37,7 @@ class Home extends Component {
 
                     <div className="row row-content align-items-center">
                         <div className="col-sm-4">
-                            <Card className="h-100 mb-2">
+                            <Card className="h-100 my-2">
                                 <CardImg top src="assets/images/AboutYou.png" alt="About You Pic" />
                                 <CardBody className="text-center text-light">
      
@@ -54,7 +54,7 @@ class Home extends Component {
                         </div>
 
                         <div className="col-sm-4">
-                            <Card className="h-100 mb-2">
+                            <Card className="h-100 my-2">
                                 <CardImg top src="assets/images/WhatInspires.png" alt="What Inspires Pic" />
                                 <CardBody className="text-center text-light">
      
@@ -70,7 +70,7 @@ class Home extends Component {
                         </div>
 
                         <div className="col-sm-4">
-                            <Card className="h-100 mb-2">
+                            <Card className="h-100 my-2">
                                 <CardImg top src="assets/images/AboutUs.png" alt="About Us Pic" />
                                 <CardBody className="text-center text-light">
      
