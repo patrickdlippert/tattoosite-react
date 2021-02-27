@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Button, Form, FormGroup, Label, Input, Col } from 'reactstrap';
+import { Fade } from 'react-animation-components';
 
 
 
@@ -62,7 +63,7 @@ class Matcher extends Component {
                 </div>
 
 
-
+                <Fade in>
                 <div className="row row-content">
                     <div className="container-fluid">
                         <Form className="p-sm-5" onSubmit={this.handleSubmit} >
@@ -446,7 +447,7 @@ class Matcher extends Component {
                         </Form>
                     </div>
                 </div>
-
+                </Fade>
             </div>
         );
     }

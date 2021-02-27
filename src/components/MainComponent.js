@@ -76,7 +76,7 @@ class Main extends Component {
 
           <Route exact path='/artistgallery' render={() => <Galleries category={"artists"} galleries={this.state.artists} galleryimages={this.state.galleryimages} />} />
 
-          <Route exact path='/news' render={() => <News newsitems={this.state.news}  reviews={this.state.reviews} />} />
+          <Route exact path='/news' render={() => <News newsitems={this.state.news}  reviews={this.state.reviews} promotions={this.state.promotions} />} />
           <Route exact path='/shop' render={() => <Shop shopitems={this.state.shopping}  />} />
           <Route exact path='/FAQ' render={() => <Faq faqitems={this.state.faq}  />} />
           <Route exact path='/contact' render={() => <Contact />} />

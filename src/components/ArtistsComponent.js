@@ -1,6 +1,7 @@
 import React from 'react';
 import { Button } from 'reactstrap';
 import { Link } from 'react-router-dom';
+import { Fade } from 'react-animation-components';
 
 
 function RenderArtistItem({category, artist}) {
@@ -44,16 +45,17 @@ function Artists(props) {
     return (
         <div className="container">
             <div className="row">
-
-        {/* This row has a description area above the artist profiles */}
-        <div className="row row-noseparator align-items-center">
-            <div className="col">
-                <h3>Our Team</h3>
-                <p className="text-light">At Bad Panda Tattoo, we've created a home for artists that come from many different backgrounds, but we have several things in common: a love for art and a committment to deliver our best work while continuing to learn and grown on a daily basis. We'd like to introduce you to the cast of characters that make up Bad Panda.
-                </p>
-            </div>
-        </div>
-                {artistList}
+                {/* This row has a description area above the artist profiles */}
+                <div className="row row-noseparator align-items-center">
+                    <div className="col">
+                        <h3>Our Team</h3>
+                        <p className="text-light">At Bad Panda Tattoo, we've created a home for artists that come from many different backgrounds, but we have several things in common: a love for art and a committment to deliver our best work while continuing to learn and grown on a daily basis. We'd like to introduce you to the cast of characters that make up Bad Panda.
+                        </p>
+                    </div>
+                </div>
+                <Fade in>
+                    {artistList}
+                </Fade>
             </div>
         </div>
 
