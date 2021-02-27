@@ -32,7 +32,7 @@ class Header extends Component {
                                 <img className="logo-rectangular" src="/assets/images/BadPandaRectLogo.png" alt="Bad Panda Logo"></img>
                             </div>
                             <div className="col align-self-center">
-                                    <h2 id="head-text">The best tattoos in the Pacific Northwest!</h2>
+                                    <h2 className="d-none d-sm-block" id="head-text">The best tattoos in the Pacific Northwest!</h2>
                             </div>                
                         </div>
                     </div>
