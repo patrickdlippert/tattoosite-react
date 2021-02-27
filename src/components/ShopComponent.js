@@ -1,5 +1,6 @@
 import React from "react";
 import RatingStars from "./RatingStarsComponent";
+import { Link } from 'react-router-dom';
 
 
 function RenderShopping({shopitems}) {
@@ -12,19 +13,19 @@ function RenderShopping({shopitems}) {
                             <div className="col-md-3 col-sm-6 mb-4" key={shopitem.id}>
                                 <div className="product-grid9">
                                     <div className="product-image9">
-                                        <a href="/">
+                                        <Link to='/shop'>
                                             <img className="pic-1" src={shopitem.image1} alt={shopitem.name}/>
                                             <img className="pic-2" src={shopitem.image2} alt={shopitem.name} />
-                                        </a>
-                                        <a href="/" className="fa fa-search product-full-view"></a>
+                                        </Link>
+                                        <Link to='/shop' className="fa fa-search product-full-view"></Link>
                                     </div>
                                     <div className="product-content">
                                         <span className="rating">
                                         <RatingStars rating={shopitem.rating}  />
                                         </span>
-                                        <h3 className="title"><a href="/">{shopitem.name}</a></h3>
+                                        <h3 className="title"><Link to='/shop'>{shopitem.name}</Link></h3>
                                         <div className="price">{shopitem.price}</div>
-                                        <a className="add-to-cart" href="/">{shopitem.description}</a>
+                                        <Link to='/shop' className="add-to-cart">{shopitem.description}</Link>
                                     </div>
                                 </div>
                             </div>
