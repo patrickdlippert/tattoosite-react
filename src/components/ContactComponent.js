@@ -177,7 +177,8 @@ class Contact extends Component {
                                     <Input required type="textarea" id="message" name="message"
                                         rows="8"
                                         value={this.state.message}
-                                        onChange={this.handleInputChange}></Input>
+                                        onChange={this.handleInputChange}>
+                                    </Input>
                                 </Col>
                             </FormGroup>
                             <FormGroup row>
@@ -190,7 +191,7 @@ class Contact extends Component {
                         </Form>
                     </div>
                     <div className="col map embed embed-responsive m-xs-5">
-                <iframe title="Map Location of Bad Panda Tattoo" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d6817.827896339367!2d-122.43193962767666!3d47.30150435738939!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1609534925710!5m2!1sen!2sus" frameborder="0" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                <iframe title="Map Location of Bad Panda Tattoo" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d6817.827896339367!2d-122.43193962767666!3d47.30150435738939!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1609534925710!5m2!1sen!2sus" frameBorder="0" allowFullScreen="" aria-hidden="false" tabIndex="0"></iframe>
             </div>
                 </div>
 

@@ -1,7 +1,7 @@
 export const REVIEWS = [
     {
         id: 0,
-        name: "One of Tacoma's finest",
+        name: "Tacoma's finest",
         displayName: true,
         image: 'assets/images/reviews/totaltattoomag.png',
         description: "Bad Panda Tattoo is a gem of a shop, led by visionary newcomer Tommy Chen. Book your appointment now, because they're about to blow up!",
