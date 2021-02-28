@@ -80,7 +80,7 @@ function Galleries(props) {
     // Dynamically create the labeled tab links using the ids and names from the galleries object
     const navlinkList = props.galleries.map(gallery => {
         return (
-            <NavItem>
+            <NavItem key={gallery.id}>
                 <NavLink
                     className={activeTab === gallery.id.toString() ? 'active' : ''}
                     onClick={() => { toggle(gallery.id.toString()); }}

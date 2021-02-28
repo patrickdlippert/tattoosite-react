@@ -7,11 +7,6 @@ import HomeCarousel from './HomeCarouselComponent';
 
 class Home extends Component {
 
-    constructor(props) {
-		super(props);
-	}
-   
-
     render() {
         return (
             <React.Fragment>

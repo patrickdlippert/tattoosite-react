@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Nav, Navbar, NavbarBrand, NavbarToggler, Collapse, NavItem, Jumbotron, UncontrolledDropdown, DropdownToggle, DropdownMenu, DropdownItem, } from 'reactstrap';
+import { Nav, Navbar, NavbarBrand, NavbarToggler, Collapse, NavItem, Jumbotron, Dropdown, DropdownToggle, DropdownMenu, DropdownItem, } from 'reactstrap';
 import { NavLink } from 'react-router-dom';
 
 
@@ -9,17 +9,24 @@ class Header extends Component {
     super(props);
 
     this.toggleNav = this.toggleNav.bind(this);
+    this.toggleDropdown = this.toggleDropdown.bind(this);
     this.state = {
-      isNavOpen: false
+      isNavOpen: false,
+      isDropdownOpen: false
     };
   }
 
   toggleNav() {
     this.setState({
-      isNavOpen: !this.state.isNavOpen
+        isNavOpen: !this.state.isNavOpen
     });
   }
 
+  toggleDropdown() {
+    this.setState({
+        isDropdownOpen: !this.state.isDropdownOpen
+    });
+  }
 
     render() {
         return(
@@ -61,7 +68,7 @@ class Header extends Component {
                                     </NavLink>
                                 </NavItem>
                                 <NavItem>
-                                    <UncontrolledDropdown nav inNavbar>
+                                    <Dropdown isOpen={this.state.isDropdownOpen} toggle={this.toggleDropdown} nav inNavbar>
                                         <DropdownToggle nav caret>
                                             Gallery
                                         </DropdownToggle>
@@ -77,7 +84,7 @@ class Header extends Component {
                                                 </NavLink>
                                             </DropdownItem>
                                         </DropdownMenu>
-                                    </UncontrolledDropdown>
+                                    </Dropdown>
                                 </NavItem>
 
                                 <NavItem>

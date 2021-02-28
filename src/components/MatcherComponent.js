@@ -10,14 +10,14 @@ class Matcher extends Component {
         super(props);
 
         this.state = {
-            numTattoos: '',
-            painThreshold: '',
-            overFifty: '',
-            isCoverUp: '',
-            isExtension: '',
-            isClearIdea: '',
-            isOpenToArtist: '',
-            isColor: '',
+            numTattoos: '0',
+            painThreshold: '2',
+            overFifty: '0',
+            isCoverUp: '0',
+            isExtension: '0',
+            isClearIdea: '1',
+            isOpenToArtist: '1',
+            isColor: '1',
             sizeTattoo: '',
             locationTattoo: '',
             themeTattoo: '',
@@ -37,7 +37,7 @@ class Matcher extends Component {
     handleInputChange(event) {
         const target = event.target;
         const name = target.name;
-        const value = target.type === 'radio' ? target.checked : target.value;
+        const value = target.type === 'check' ? target.checked : target.value;
     
         this.setState({
             [name]: value
@@ -72,8 +72,8 @@ class Matcher extends Component {
                                 <Label className="col-sm-5">How many tattoos do you currently have?</Label>
                                 <FormGroup check inline>
                                     <Label check>
-                                        <Input type="radio" name="numTattoos" value="0" defaultChecked
-                                            value={this.state.numTattoos}
+                                        <Input type="radio" name="numTattoos" value="0" 
+                                            checked={this.state.numTattoos === "0" }
                                             onChange={this.handleInputChange}
                                         />
                                         None
@@ -83,7 +83,7 @@ class Matcher extends Component {
                                 <FormGroup check inline>
                                     <Label check>
                                         <Input type="radio" name="numTattoos" value="1"
-                                            value={this.state.numTattoos}
+                                            checked={this.state.numTattoos === "1"}
                                             onChange={this.handleInputChange}
                                         />
                                         1-2
@@ -93,7 +93,7 @@ class Matcher extends Component {
                                 <FormGroup check inline>
                                     <Label check>
                                         <Input type="radio" name="numTattoos" value="3"
-                                            value={this.state.numTattoos}
+                                            checked={this.state.numTattoos === "3"}
                                             onChange={this.handleInputChange}
                                         />
                                         3-4
@@ -103,7 +103,7 @@ class Matcher extends Component {
                                 <FormGroup check inline>
                                     <Label check>
                                         <Input type="radio" name="numTattoos" value="5"
-                                            value={this.state.numTattoos}
+                                             checked={this.state.numTattoos === "5"}
                                             onChange={this.handleInputChange}
                                         />
                                         5-9
@@ -113,7 +113,7 @@ class Matcher extends Component {
                                 <FormGroup check inline>
                                     <Label check>
                                         <Input type="radio" name="numTattoos" value="10"
-                                            value={this.state.numTattoos}
+                                            checked={this.state.numTattoos === "10"}
                                             onChange={this.handleInputChange}
                                         />
                                         10+
@@ -128,7 +128,7 @@ class Matcher extends Component {
                                 <FormGroup check inline>
                                     <Label check>
                                         <Input type="radio" name="painThreshold" value="0"
-                                            value={this.state.painThreshold}
+                                            checked={this.state.painThreshold === "0"}
                                             onChange={this.handleInputChange}
                                         />
                                         Very Low
@@ -138,7 +138,7 @@ class Matcher extends Component {
                                 <FormGroup check inline>
                                     <Label check>
                                         <Input type="radio" name="painThreshold" value="1"
-                                            value={this.state.painThreshold}
+                                            checked={this.state.painThreshold === "1"}
                                             onChange={this.handleInputChange}
                                         />
                                         Low
@@ -147,8 +147,8 @@ class Matcher extends Component {
 
                                 <FormGroup check inline>
                                     <Label check>
-                                        <Input type="radio" name="painThreshold" value="2" defaultChecked 
-                                            value={this.state.painThreshold}
+                                        <Input type="radio" name="painThreshold" value="2" 
+                                            checked={this.state.painThreshold === "2"}
                                             onChange={this.handleInputChange}
                                         />
                                         Moderate
@@ -158,7 +158,7 @@ class Matcher extends Component {
                                 <FormGroup check inline>
                                     <Label check>
                                         <Input type="radio" name="painThreshold" value="3"
-                                            value={this.state.painThreshold}
+                                            checked={this.state.painThreshold === "3"}
                                             onChange={this.handleInputChange}
                                         />
                                         High
@@ -168,7 +168,7 @@ class Matcher extends Component {
                                 <FormGroup check inline>
                                     <Label check>
                                         <Input type="radio" name="painThreshold" value="4" 
-                                        value={this.state.painThreshold}
+                                        checked={this.state.painThreshold === "4"}
                                         onChange={this.handleInputChange}
                                     />
                                     Very High
@@ -183,7 +183,7 @@ class Matcher extends Component {
                                 <FormGroup check inline>
                                     <Label check>
                                         <Input type="radio" name="overFifty"  value="1"
-                                            checked={this.state.overFifty}
+                                            checked={this.state.overFifty === "1"}
                                             onChange={this.handleInputChange}
                                         />
                                         Yes
@@ -192,8 +192,8 @@ class Matcher extends Component {
 
                                 <FormGroup check inline>
                                     <Label check>
-                                        <Input type="radio" name="overFifty" value="0" defaultChecked
-                                            checked={this.state.overFifty}
+                                        <Input type="radio" name="overFifty" value="0" 
+                                            checked={this.state.overFifty === "0"}
                                             onChange={this.handleInputChange}
                                         /> 
                                         No
@@ -207,7 +207,7 @@ class Matcher extends Component {
                                 <FormGroup check inline>
                                     <Label check>
                                         <Input type="radio" name="isCoverUp" value="1"
-                                            value={this.state.isCoverUp}
+                                            checked={this.state.isCoverUp === "1"}
                                             onChange={this.handleInputChange}
                                         />
                                         Yes
@@ -216,8 +216,8 @@ class Matcher extends Component {
 
                                 <FormGroup check inline>
                                     <Label check>
-                                        <Input type="radio" name="isCoverUp" value="0" defaultChecked 
-                                            value={this.state.isCoverUp}
+                                        <Input type="radio" name="isCoverUp" value="0"  
+                                            checked={this.state.isCoverUp === "0"}
                                             onChange={this.handleInputChange}
                                         /> 
                                         No
@@ -232,7 +232,7 @@ class Matcher extends Component {
                                 <FormGroup check inline>
                                     <Label check>
                                         <Input type="radio" name="isExtension" value="1"
-                                            value={this.state.isExtension}
+                                            checked={this.state.isExtension === "1"}
                                             onChange={this.handleInputChange}
                                         />
                                         Yes
@@ -241,8 +241,8 @@ class Matcher extends Component {
 
                                 <FormGroup check inline>
                                     <Label check>
-                                        <Input type="radio" name="isExtension" value="0" defaultChecked 
-                                            value={this.state.isExtension}
+                                        <Input type="radio" name="isExtension" value="0"  
+                                            checked={this.state.isExtension === "0"}
                                             onChange={this.handleInputChange}
                                         /> 
                                         No
@@ -255,8 +255,8 @@ class Matcher extends Component {
                                 <Label className="col-sm-5">I have a very clear idea of what I want</Label>
                                 <FormGroup check inline>
                                     <Label check>
-                                        <Input type="radio" name="isClearIdea" value="1" defaultChecked 
-                                            value={this.state.isClearIdea}
+                                        <Input type="radio" name="isClearIdea" value="1"  
+                                            checked={this.state.isClearIdea === "1"}
                                             onChange={this.handleInputChange}
                                         />
                                         Yes
@@ -266,7 +266,7 @@ class Matcher extends Component {
                                 <FormGroup check inline>
                                     <Label check>
                                         <Input type="radio" name="isClearIdea" value="0" 
-                                            value={this.state.isClearIdea}
+                                            checked={this.state.isClearIdea === "0"}
                                             onChange={this.handleInputChange}
                                         />
                                         No
@@ -279,8 +279,8 @@ class Matcher extends Component {
                                 <Label className="col-sm-5">I'm open to an artist's interpretation</Label>
                                 <FormGroup check inline>
                                     <Label check>
-                                        <Input type="radio" name="isOpenToArtist" value="1" defaultChecked 
-                                            value={this.state.isOpenToArtist}
+                                        <Input type="radio" name="isOpenToArtist" value="1"  
+                                            checked={this.state.isOpenToArtist === "1"}
                                             onChange={this.handleInputChange}
                                         />
                                         Yes
@@ -290,7 +290,7 @@ class Matcher extends Component {
                                 <FormGroup check inline>
                                     <Label check>
                                         <Input type="radio" name="isOpenToArtist" value="0" 
-                                            value={this.state.isOpenToArtist}
+                                            checked={this.state.isOpenToArtist === "0"}
                                             onChange={this.handleInputChange}
                                         />
                                         No
@@ -304,8 +304,8 @@ class Matcher extends Component {
                                 <Label className="col-sm-5">Will your new tattoo be in color or black {'&'} gray?</Label>
                                 <FormGroup check inline>
                                     <Label check>
-                                        <Input type="radio" name="isColor" value="1" defaultChecked 
-                                            value={this.state.isColor}
+                                        <Input type="radio" name="isColor" value="1"  
+                                            checked={this.state.isColor === "1"}
                                             onChange={this.handleInputChange}
                                         />
                                         Color
@@ -315,7 +315,7 @@ class Matcher extends Component {
                                 <FormGroup check inline>
                                     <Label check>
                                         <Input type="radio" name="isColor" value="0" 
-                                            value={this.state.isColor}
+                                            checked={this.state.isColor === "0"}
                                             onChange={this.handleInputChange}
                                         />
                                         Black {'&'} Gray
@@ -328,11 +328,11 @@ class Matcher extends Component {
                             <FormGroup row>
                                 <Label htmlFor="sizeTattoo" className="col-sm-5">What size will your new tattoo be?</Label>
                                 <div className="col">
-                                    <Input type="select" id="sizeTattoo" name="sizeTattoo"
+                                    <Input required type="select" id="sizeTattoo" name="sizeTattoo"
                                         value={this.state.sizeTattoo}
                                         onChange={this.handleInputChange}
                                     >
-                                        <option>Select...</option>
+                                        <option value="">Select...</option>
                                         <option value="1">Extra small (single image less than 1" x 1")</option>
                                         <option value="2">Small (single image less than 2" x 2")</option>
                                         <option value="3">Medium (single image less than 6" x 6")</option>
@@ -347,11 +347,11 @@ class Matcher extends Component {
                             <FormGroup row>
                                 <Label htmlFor="locationTattoo" className="col-sm-5">Where will your new tattoo be located?</Label>
                                 <div className="col">
-                                    <Input type="select" id="locationTattoo" name="locationTattoo"
+                                    <Input required type="select" id="locationTattoo" name="locationTattoo"
                                         value={this.state.locationTattoo}
                                         onChange={this.handleInputChange}
                                     >
-                                        <option>Select...</option>
+                                        <option value="">Select...</option>
                                         <option value="wrist">Wrist</option>
                                         <option value="forearm">Forearm</option>
                                         <option value="bicep">Bicep</option>
@@ -375,11 +375,11 @@ class Matcher extends Component {
                             <FormGroup row>
                                 <Label htmlFor="themeTattoo" className="col-sm-5">What is the theme of your new tattoo?</Label>
                                 <div className="col">
-                                    <Input type="select" id="themeTattoo" name="themeTattoo"
+                                    <Input required type="select" id="themeTattoo" name="themeTattoo"
                                         value={this.state.themeTattoo}
                                         onChange={this.handleInputChange}
                                     >
-                                        <option>Select...</option>
+                                        <option value="">Select...</option>
                                         <option value="words">Written words</option>
                                         <option value="landscape">Landscapes</option>
                                         <option value="pet">Pets</option>
@@ -404,11 +404,11 @@ class Matcher extends Component {
                             <FormGroup row>
                                 <Label htmlFor="styleTattoo" className="col-sm-5">What style will your new tattoo be done in?</Label>
                                 <div className="col">
-                                    <Input type="select" id="styleTattoo" name="styleTattoo"
+                                    <Input required type="select" id="styleTattoo" name="styleTattoo"
                                         value={this.state.styleTattoo}
                                         onChange={this.handleInputChange}
                                     >
-                                        <option>Select...</option>
+                                        <option value="">Select...</option>
                                         <option value="americantraditional">American Traditional</option>
                                         <option value="neotraditional">Neo Traditional</option>
                                         <option value="newschool">New School</option>
@@ -427,9 +427,9 @@ class Matcher extends Component {
 
                             {/* Select a desired appointment date in the modal reservation form  */}
                             <FormGroup row>
-                                <Label htmlFor="dateAppointment" className="col-sm-5">Desired appointment date</Label>
+                                <Label required htmlFor="dateAppointment" className="col-sm-5">Desired appointment date</Label>
                                 <div className="col">
-                                    <Input type="date" id="dateAppointment" name="dateAppointment"
+                                    <Input required type="date" id="dateAppointment" name="dateAppointment"
                                         value={this.state.dateAppointment}
                                         onChange={this.handleInputChange}
                                     />
